@@ -38,10 +38,10 @@ const solution = [
 
 const Footer = () => {
   return (
-    <footer className="mt-7 mx-auto flex max-w-360 w-full bg-[#1A0518] text-white">
-      <div className="mx-auto flex w-full max-w-360 flex-col px-4 py-10 lg:px-16 lg:py-16">
-        {/* top CTA row */}
-        <div className="mb-10 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+    <footer className="mt-7 mx-auto max-w-360 bg-[#11040E] text-white">
+      {/* top CTA row - different bg shade */}
+      <div className="mx-auto flex w-full max-w-360 bg-[#1D0617]">
+        <div className="mx-auto flex w-full max-w-360 flex-col gap-4 px-4 py-10 lg:flex-row lg:items-center lg:justify-between lg:px-16">
           <div>
             <p className="text-sm text-white/70">
               Ready to be a part of something extraordinary?
@@ -54,7 +54,10 @@ const Footer = () => {
             Get In Touch
           </Button>
         </div>
+      </div>
 
+      {/* rest of footer body */}
+      <div className="mx-auto flex w-full max-w-360 flex-col px-4 py-10 lg:px-16 lg:py-16">
         <hr className="mb-10 border-white/10" />
 
         {/* main columns */}
