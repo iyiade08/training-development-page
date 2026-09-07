@@ -29,11 +29,11 @@ const TrainingTheConsultant = () => {
       aria-label="Training the consultant"
       className="mt-7 flex flex-col gap-4 p-4 lg:p-8 bg-[#5712441A]"
     >
-      <h1 className="text-2xl font-semibold text-[#571244] lg:text-3xl">
+      <h1 className="text-2xl font-semibold pl-2 text-[#571244] lg:text-3xl">
         Training The Consultant
       </h1>
 
-      <p className="text-sm font-medium text-[#151515] lg:text-base">
+      <p className="text-sm font-medium text-[#571244] lg:text-base">
         Maximise Your Potential as a Certified Trainer:
       </p>
 

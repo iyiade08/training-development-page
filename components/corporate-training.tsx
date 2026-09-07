@@ -58,7 +58,7 @@ const CooperateTraining = () => {
         <div
           key={item.title}
           className={`flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-10 ${
-            item.imageSide === "left" ? "lg:flex-row-reverse" : ""
+            item.imageSide === "right" ? "lg:flex-row-reverse" : ""
           }`}
         >
           {/* title - mobile only, appears above image */}

@@ -16,7 +16,7 @@ const TransformationHub = () => {
       aria-label="Transformation Hub"
       className="mt-7 flex flex-col gap-4 rounded-2xl bg-[#FBE1E5] p-4 lg:p-8"
     >
-      <p className="text-sm font-medium italic text-[#571244]">
+      <p className="text-sm font-medium italic text-[#1671D9]">
         Learning With Our CEO:
       </p>
       <h1 className="text-2xl font-bold italic text-[#571244] lg:text-3xl">
@@ -53,7 +53,7 @@ const TransformationHub = () => {
                 key={item}
                 className="flex items-center gap-2 rounded-md bg-white px-4 py-3"
               >
-                <Zap className="h-4 w-4 shrink-0 fill-[#571244] text-[#571244]" />
+                <Zap className="h-4 w-4 shrink-0  text-[#571244]" />
                 <p className="text-sm text-[#151515]">{item}</p>
               </div>
             ))}
