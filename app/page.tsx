@@ -1,16 +1,16 @@
 import React from "react";
-import Hero from "./hero/page";
-import LearningManagement from "./learning-management/page";
-import CooperateTraining from "./cooperate-training/page";
-import ManagementDevelopment from "./management-development/page";
-import TransformationHub from "./transformation-hub/page";
-import TrainingTheConsultant from "./training-the-consultant/page";
-import CtaBanner from "./consultation/page";
-import Testimonials from "./testimonial/page";
+import Hero from "../components/hero";
+import LearningManagement from "@/components/learning-management";
+import CooperateTraining from "@/components/corporate-training";
+import ManagementDevelopment from "@/components/management-development";
+import TransformationHub from "@/components/transformation-hub";
+import TrainingTheConsultant from "@/components/training-the-consultant";
+import CtaBanner from "@/components/consultation";
+import Testimonials from "@/components/testimonial";
 
 const Home = () => {
   return (
-    <section className="max-w-360 mx-auto w-full min-h-screen mt-6">
+    <main className="max-w-360 mx-auto w-full min-h-screen mt-6">
       <Hero />
       <LearningManagement />
       <CooperateTraining />
@@ -19,7 +19,7 @@ const Home = () => {
       <TrainingTheConsultant />
       <CtaBanner />
       <Testimonials />
-    </section>
+    </main>
   );
 };
 

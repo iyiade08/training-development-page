@@ -25,7 +25,10 @@ const features = [
 
 const TrainingTheConsultant = () => {
   return (
-    <div className="mt-7 flex flex-col gap-4 p-4 lg:p-8 bg-[#5712441A]">
+    <section
+      aria-label="Training the consultant"
+      className="mt-7 flex flex-col gap-4 p-4 lg:p-8 bg-[#5712441A]"
+    >
       <h1 className="text-2xl font-semibold text-[#571244] lg:text-3xl">
         Training The Consultant
       </h1>
@@ -59,7 +62,7 @@ const TrainingTheConsultant = () => {
         Learn More
         <ArrowUpRight className="h-4 w-4" />
       </button>
-    </div>
+    </section>
   );
 };
 

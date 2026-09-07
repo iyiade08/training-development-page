@@ -50,7 +50,10 @@ const trainings = [
 
 const CooperateTraining = () => {
   return (
-    <div className="mt-7 flex flex-col gap-12 p-4 lg:gap-16 lg:px-16">
+    <section
+      aria-label="coporate training"
+      className="mt-7 flex flex-col gap-12 p-4 lg:gap-16 lg:px-16"
+    >
       {trainings.map((item) => (
         <div
           key={item.title}
@@ -95,7 +98,7 @@ const CooperateTraining = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

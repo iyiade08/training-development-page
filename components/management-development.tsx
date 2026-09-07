@@ -10,7 +10,10 @@ const highlights = [
 
 const ManagementDevelopment = () => {
   return (
-    <div className="mt-7 flex flex-col gap-6 rounded-2xl bg-[#2B0A24] p-4 lg:flex-row lg:items-center lg:gap-10 lg:p-6">
+    <section
+      aria-label="Management Development"
+      className="mt-7 flex flex-col gap-6 rounded-2xl bg-[#2B0A24] p-4 lg:flex-row lg:items-center lg:gap-10 lg:p-6"
+    >
       {/* image */}
       <div className="w-full lg:w-1/2">
         <Image
@@ -54,7 +57,7 @@ const ManagementDevelopment = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -52,7 +52,10 @@ const Testimonials = () => {
   });
 
   return (
-    <div className="mx-auto mt-7 w-full max-w-[1045px] px-4">
+    <section
+      aria-label="Testimonials"
+      className="mx-auto mt-7 w-full max-w-[1045px] px-4"
+    >
       <h1 className="mb-8 text-center text-2xl font-semibold text-[#151515] lg:text-3xl">
         Testimonials
       </h1>
@@ -127,7 +130,7 @@ const Testimonials = () => {
           <ChevronRight className="h-5 w-5" />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

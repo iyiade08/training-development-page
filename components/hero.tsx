@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="relative h-98.25  lg:h-127.75 w-full">
+    <section aria-label="Hero" className="relative h-98.25  lg:h-127.75 w-full">
       <Image
         src="/hero-image/hero-banner.jpg"
         alt="hero banner"
@@ -35,7 +35,7 @@ const Hero = () => {
           Book a Consultation
         </Button>
       </div>
-    </div>
+    </section>
   );
 };
 

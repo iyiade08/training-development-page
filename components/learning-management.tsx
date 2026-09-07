@@ -13,7 +13,10 @@ const courses = [
 
 const LearningManagement = () => {
   return (
-    <div className="mt-7 w-[375px] mx-auto md:w-auto flex flex-col items-center gap-8 bg-[#5712441A] px-4 py-10 lg:flex-row lg:items-center lg:justify-center lg:gap-16 lg:px-16">
+    <section
+      aria-label="Learning Management System"
+      className="mt-7 w-[375px] mx-auto md:w-auto flex flex-col items-center gap-8 bg-[#5712441A] px-4 py-10 lg:flex-row lg:items-center lg:justify-center lg:gap-16 lg:px-16"
+    >
       <h1 className="flex text-xl font-bold capitalize text-[#571244] lg:hidden">
         Learning Management System
       </h1>
@@ -67,7 +70,7 @@ const LearningManagement = () => {
           <ArrowUpRight className="h-4 w-4" />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

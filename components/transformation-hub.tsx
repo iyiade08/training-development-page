@@ -12,7 +12,10 @@ const highlights = [
 
 const TransformationHub = () => {
   return (
-    <div className="mt-7 flex flex-col gap-4 rounded-2xl bg-[#FBE1E5] p-4 lg:p-8">
+    <section
+      aria-label="Transformation Hub"
+      className="mt-7 flex flex-col gap-4 rounded-2xl bg-[#FBE1E5] p-4 lg:p-8"
+    >
       <p className="text-sm font-medium italic text-[#571244]">
         Learning With Our CEO:
       </p>
@@ -62,7 +65,7 @@ const TransformationHub = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
